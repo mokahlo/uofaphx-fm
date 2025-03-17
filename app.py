@@ -7,7 +7,7 @@ import os
 # Simulated database (replace with real DB in production)
 USER_DATABASE = {}
 VERIFICATION_CODES = {}
-AUTHORIZED_EMAILS = ["alloweduser1@example.com", "alloweduser2@example.com"]
+AUTHORIZED_EMAILS = ["mokahlou@gmail.com", "elemendza@gmail.com"]
 
 # Email verification function
 def send_verification_email(email, code):
