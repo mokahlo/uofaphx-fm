@@ -3,6 +3,11 @@ import smtplib
 import random
 import os
 
+#Favcon Image
+st.set_page_config(
+    page_title="Residency Rotations",
+    page_icon="favicon.png"  # Updated path
+
 # Load allowed emails from external file
 def load_allowed_emails():
     try:
