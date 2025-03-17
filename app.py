@@ -278,6 +278,45 @@ pgy3_rotations = {
     }
 }
 
+# Define the elective rotations
+elective_rotations = {
+    "Sports Medicine": {
+        "duration": "1 month",
+        "location": "Banner – University Medical Center Phoenix Sports Medicine Clinic",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Focused training in the diagnosis and management of sports-related injuries and conditions."
+    },
+    "Rural Health": {
+        "duration": "1 month",
+        "location": "Various rural health centers across Arizona",
+        "address": "Varies by assigned location",
+        "parking": "Parking availability varies by location.",
+        "description": "Experience in providing comprehensive healthcare in rural and underserved communities."
+    },
+    "Integrative Medicine": {
+        "duration": "1 month",
+        "location": "Andrew Weil Center for Integrative Medicine",
+        "address": "655 N. Alvernon Way, Suite 120, Tucson, AZ 85711",
+        "parking": "Free parking available on-site.",
+        "description": "Training in holistic approaches to patient care, combining conventional and alternative therapies."
+    },
+    "Research": {
+        "duration": "1 month",
+        "location": "University of Arizona College of Medicine – Phoenix",
+        "address": "475 N. 5th Street, Phoenix, AZ 85004",
+        "parking": "Parking garage available; validation provided for residents.",
+        "description": "Opportunities to engage in clinical or academic research projects under faculty supervision."
+    },
+    "Global Health": {
+        "duration": "1 month",
+        "location": "Various international healthcare settings",
+        "address": "Varies by assigned location",
+        "parking": "Not applicable.",
+        "description": "Exposure to healthcare delivery and public health initiatives in international settings."
+    }
+}
+
 # Authentication check
 if "authenticated" not in st.session_state:
     st.session_state["authenticated"] = False
@@ -288,7 +327,7 @@ else:
     st.title("UofA Phoenix Family Medicine Residents Wiki")
     st.sidebar.write(f"Logged in as: {st.session_state['email']}")
     
-    tab1, tab2, tab3, tab4 = st.tabs(["Home", "PGY-1", "PGY-2", "PGY-3"])
+    tab1, tab2, tab3, tab4 = st.tabs(["Home", "PGY-1", "PGY-2", "PGY-3", "Electives"])
     
     with tab1:
         st.header("Welcome to UofA Phoenix Family Medicine Residents Wiki")
@@ -305,3 +344,7 @@ else:
     with tab4:
         st.header("PGY-3 (Third Year) Rotations")
         display_rotation_details(pgy3_rotations)
+
+    with tab5:
+        st.header("Elective Rotations")
+        display_rotation_details(elective_rotations)
