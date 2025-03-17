@@ -6,7 +6,8 @@ import os
 #Favcon Image
 st.set_page_config(
     page_title="Residency Rotations",
-    page_icon="favicon.png"  # Updated path
+    page_icon="favicon.png"
+)
 
 # Load allowed emails from external file
 def load_allowed_emails():
