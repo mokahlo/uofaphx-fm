@@ -55,6 +55,79 @@ def login():
             else:
                 st.error("Please enter a valid 6-digit code.")
 
+# Function to display rotation details
+def display_rotation_details(rotations):
+    for rotation, details in rotations.items():
+        with st.expander(rotation):
+            st.write(f"**Duration:** {details['duration']}")
+            st.write(f"**Location:** {details['location']}")
+            st.write(f"**Parking Information:** {details['parking']}")
+            st.write(f"**Description:** {details['description']}")
+
+# Rotation details for each postgraduate year
+pgy1_rotations = {
+    "Family Medicine Core Orientation": {
+        "duration": "1 month",
+        "location": "Banner – University Medical Center Phoenix",
+        "parking": "Free parking available on-site for residents.",
+        "description": "An introduction to the fundamentals of family medicine, focusing on patient-centered, evidence-based care."
+    },
+    "Family Medicine Patient-Centered Medical Home Ambulatory": {
+        "duration": "1 month",
+        "location": "Banner – University Medical Center Phoenix Outpatient Clinics",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Experience in outpatient care emphasizing the patient-centered medical home model, focusing on continuity of care."
+    },
+    "Family Medicine Inpatient at Banner University Medical Center": {
+        "duration": "6 weeks",
+        "location": "Banner – University Medical Center Phoenix",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Inpatient care experience managing a diverse patient population with various medical conditions."
+    }
+}
+
+pgy2_rotations = {
+    "Family Medicine Inpatient": {
+        "duration": "6 weeks",
+        "location": "Banner – University Medical Center Phoenix",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Advanced inpatient care responsibilities, leading teams, and managing complex medical cases."
+    },
+    "Cardiology": {
+        "duration": "1 month",
+        "location": "Banner – University Medical Center Phoenix Cardiology Department",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Training in the diagnosis and management of cardiovascular diseases, including inpatient and outpatient settings."
+    },
+    "Community Medicine": {
+        "duration": "1 month",
+        "location": "Community Health Centers in Phoenix",
+        "parking": "Parking availability varies by location.",
+        "description": "Engagement with community health initiatives and understanding public health principles."
+    }
+}
+
+pgy3_rotations = {
+    "Family Medicine Inpatient": {
+        "duration": "6 weeks",
+        "location": "Banner – University Medical Center Phoenix",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Leadership role in inpatient teams, mentoring junior residents, and managing complex cases."
+    },
+    "Practice Management": {
+        "duration": "1 month",
+        "location": "Banner – University Medical Center Phoenix",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Training in the business aspects of medicine, including billing, coding, quality improvement, and leadership skills."
+    },
+    "Electives": {
+        "duration": "2 months",
+        "location": "Varies based on elective choice",
+        "parking": "Varies by location.",
+        "description": "Further opportunities to tailor training to specific interests or career goals, including potential research projects or specialized clinical experiences."
+    }
+}
+
 # Authentication check
 if "authenticated" not in st.session_state:
     st.session_state["authenticated"] = False
@@ -73,27 +146,12 @@ else:
     
     with tab2:
         st.header("PGY-1 (Intern Year) Rotations")
-        with st.expander("Family Medicine Core Orientation"):
-            st.write("An introduction to the fundamentals of family medicine, focusing on patient-centered, evidence-based care.")
-        with st.expander("Family Medicine Patient-Centered Medical Home Ambulatory"):
-            st.write("Experience in outpatient care emphasizing the patient-centered medical home model, focusing on continuity of care.")
-        with st.expander("Family Medicine Inpatient at Banner University Medical Center"):
-            st.write("Inpatient care experience managing a diverse patient population with various medical conditions.")
-    
+        display_rotation_details(pgy1_rotations)
+
     with tab3:
         st.header("PGY-2 (Second Year) Rotations")
-        with st.expander("Family Medicine Inpatient"):
-            st.write("Advanced inpatient care responsibilities, leading teams, and managing complex medical cases.")
-        with st.expander("Family Medicine Ambulatory Care"):
-            st.write("Continued experience in outpatient settings, focusing on chronic disease management and preventive care.")
-        with st.expander("Cardiology"):
-            st.write("Training in the diagnosis and management of cardiovascular diseases, including inpatient and outpatient settings.")
-    
+        display_rotation_details(pgy2_rotations)
+
     with tab4:
         st.header("PGY-3 (Third Year) Rotations")
-        with st.expander("Family Medicine Inpatient"):
-            st.write("Leadership role in inpatient teams, mentoring junior residents, and managing complex cases.")
-        with st.expander("Family Medicine Ambulatory Care"):
-            st.write("Advanced outpatient care, focusing on refining clinical skills, patient communication, and efficient practice management.")
-        with st.expander("Practice Management"):
-            st.write("Training in the business aspects of medicine, including billing, coding, quality improvement, and leadership skills.")
+        display_rotation_details(pgy3_rotations)
