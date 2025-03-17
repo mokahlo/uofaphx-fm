@@ -327,7 +327,7 @@ else:
     st.title("UofA Phoenix Family Medicine Residents Wiki")
     st.sidebar.write(f"Logged in as: {st.session_state['email']}")
     
-    tab1, tab2, tab3, tab4 = st.tabs(["Home", "PGY-1", "PGY-2", "PGY-3", "Electives"])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["Home", "PGY-1", "PGY-2", "PGY-3", "Electives"])
     
     with tab1:
         st.header("Welcome to UofA Phoenix Family Medicine Residents Wiki")
