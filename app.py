@@ -6,7 +6,6 @@ import os
 
 # Simulated database (replace with real DB in production)
 USER_DATABASE = {}
-VERIFICATION_CODES = {}
 AUTHORIZED_EMAILS = ["mokahlou@gmail.com", "elemendza@gmail.com"]
 
 # Email verification function
@@ -14,11 +13,14 @@ def send_verification_email(email, code):
     sender_email = "mokahlou@gmail.com"  # Replace with your email
     sender_password = os.getenv("GOOGLE_APP_PASSWORD")  # Retrieve password securely
     
-    with smtplib.SMTP("smtp.gmail.com", 587) as server:
-        server.starttls()
-        server.login(sender_email, sender_password)
-        message = f"Subject: Your Verification Code\n\nYour verification code is: {code}"
-        server.sendmail(sender_email, email, message)
+    try:
+        with smtplib.SMTP("smtp.gmail.com", 587) as server:
+            server.starttls()
+            server.login(sender_email, sender_password)
+            message = f"Subject: Your Verification Code\n\nYour verification code is: {code}"
+            server.sendmail(sender_email, email, message)
+    except Exception as e:
+        st.error(f"Error sending email: {e}")
 
 # Hashing function for password security
 def hash_password(password):
@@ -34,30 +36,38 @@ def register():
         st.error("You are not authorized to create an account.")
         return
     
+    if "verification_code" not in st.session_state:
+        st.session_state["verification_code"] = None
+
     if st.button("Send Verification Code"):
         code = random.randint(100000, 999999)
-        VERIFICATION_CODES[email] = code
-        send_verification_email(email, code)
-        st.session_state["verifying"] = True
+        st.session_state["verification_code"] = code
         st.session_state["email"] = email
-        st.rerun()
+        send_verification_email(email, code)
+        st.success("Verification code sent! Please check your email.")
     
-    if "verifying" in st.session_state:
+    if st.session_state.get("verification_code") is not None:
         verification_code = st.text_input("Enter the verification code sent to your email:")
+        
         if st.button("Verify Code"):
-            if verification_code and int(verification_code) == VERIFICATION_CODES.get(email, 0):
-                st.session_state["verified"] = True
-                st.rerun()
+            if verification_code and verification_code.strip().isdigit():
+                entered_code = int(verification_code.strip())
+                if entered_code == st.session_state["verification_code"]:
+                    st.success("Email verified successfully! Please create your password.")
+                    st.session_state["verified"] = True
+                    st.rerun()
+                else:
+                    st.error("Invalid verification code. Please try again.")
             else:
-                st.error("Invalid verification code.")
-    
-    if "verified" in st.session_state:
+                st.error("Please enter a valid 6-digit code.")
+
+    if st.session_state.get("verified"):
         password = st.text_input("Create a Password:", type="password")
         if st.button("Register"):
             USER_DATABASE[email] = hash_password(password)
             st.success("Registration successful! You can now log in.")
             del st.session_state["verified"]
-            del st.session_state["verifying"]
+            del st.session_state["verification_code"]
 
 # User login function
 def login():
