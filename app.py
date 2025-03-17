@@ -168,14 +168,14 @@ pgy2_rotations = {
         "parking": "Free parking available on-site for residents.",
         "description": "Focused on the care of elderly patients, addressing complex medical and psychosocial issues."
     },
-    "ICU at Banner University Medical Center": {
+    "ICU": {
         "duration": "2 weeks",
         "location": "Banner – University Medical Center Phoenix Intensive Care Unit",
         "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
         "parking": "Free parking available on-site for residents.",
         "description": "Experience in managing critically ill patients in the intensive care setting."
     },
-    "Pediatric Emergency Medicine - Phoenix Children's Hospital": {
+    "Pediatric Emergency Medicine": {
         "duration": "1 month",
         "location": "Phoenix Children's Hospital",
         "address": "1919 E. Thomas Rd., Phoenix, AZ 85016",
