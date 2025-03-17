@@ -61,7 +61,7 @@ def display_rotation_details(rotations):
         with st.expander(rotation):
             st.write(f"**Duration:** {details['duration']}")
             st.write(f"**Location:** {details['location']}")
-            st.write(f"**Address:** {details['location']}")
+            st.write(f"**Address:** {details['address']}")
             st.write(f"**Parking Information:** {details['parking']}")
             st.write(f"**Description:** {details['description']}")
 
