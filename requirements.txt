@@ -1,1 +1,22 @@
-os
+# Streamlit for building the web app interface
+streamlit
+
+# PyMuPDF (fitz) for extracting text and annotations from PDFs
+pymupdf
+
+# Pinecone for vector storage (storing embeddings)
+pinecone-client
+
+# OpenAI for generating text embeddings
+openai
+
+# LangChain for managing AI-based document retrieval and processing
+langchain
+langchain-community
+langchain-pinecone
+
+# Additional dependencies for text processing and data handling
+tiktoken  # Tokenizer for OpenAI models
+numpy  # For handling numerical operations
+scikit-learn  # Machine learning utilities (optional)
+pandas  # Data analysis and storage in table format
