@@ -2,15 +2,17 @@ import streamlit as st
 
 st.set_page_config(page_title="UofA Phoenix Family Medicine Residents Wiki", layout="wide")
 
-st.sidebar.title("Navigation")
-page = st.sidebar.selectbox("Select a Page", ["Home", "PGY-1", "PGY-2", "PGY-3"])
+st.title("UofA Phoenix Family Medicine Residents Wiki")
 
-if page == "Home":
-    st.title("Welcome to UofA Phoenix Family Medicine Residents Wiki")
+# Create Tabs for Navigation
+tab1, tab2, tab3, tab4 = st.tabs(["Home", "PGY-1", "PGY-2", "PGY-3"])
+
+with tab1:
+    st.header("Welcome to UofA Phoenix Family Medicine Residents Wiki")
     st.write("A comprehensive resource for all family medicine residents.")
 
-elif page == "PGY-1":
-    st.title("PGY-1 (Intern Year) Rotations")
+with tab2:
+    st.header("PGY-1 (Intern Year) Rotations")
     st.write("- Family Medicine Core Orientation")
     st.write("- Family Medicine Patient-Centered Medical Home Ambulatory")
     st.write("- Family Medicine Inpatient at Banner University Medical Center")
@@ -21,8 +23,8 @@ elif page == "PGY-1":
     st.write("- Labor & Delivery at Banner – University Medical Center Phoenix")
     st.write("- Obstetrics Prenatal Clinic")
 
-elif page == "PGY-2":
-    st.title("PGY-2 (Second Year) Rotations")
+with tab3:
+    st.header("PGY-2 (Second Year) Rotations")
     st.write("- Family Medicine Inpatient")
     st.write("- Family Medicine Ambulatory Care")
     st.write("- Cardiology")
@@ -36,8 +38,8 @@ elif page == "PGY-2":
     st.write("- Radiology")
     st.write("- Electives")
 
-elif page == "PGY-3":
-    st.title("PGY-3 (Third Year) Rotations")
+with tab4:
+    st.header("PGY-3 (Third Year) Rotations")
     st.write("- Family Medicine Inpatient")
     st.write("- Family Medicine Ambulatory Care")
     st.write("- Practice Management")
