@@ -2,24 +2,6 @@ import streamlit as st
 
 st.set_page_config(page_title="UofA Phoenix Family Medicine Residents Wiki", layout="wide")
 
-# Apply dark theme
-st.markdown("""
-    <style>
-        body {
-            background-color: #121212;
-            color: white;
-        }
-        .stTabs {
-            background-color: #1e1e1e;
-            color: white;
-        }
-        .st-expander {
-            background-color: #2c2c2c;
-            color: white;
-        }
-    </style>
-""", unsafe_allow_html=True)
-
 st.title("UofA Phoenix Family Medicine Residents Wiki")
 
 # Create Tabs for Navigation
