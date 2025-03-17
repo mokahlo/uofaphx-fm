@@ -1,50 +1,86 @@
 import streamlit as st
-from google.oauth2 import id_token
-from google_auth_oauthlib.flow import Flow
-import google.auth.transport.requests
+import hashlib
+import smtplib
+import random
 import os
 
-st.set_page_config(page_title="UofA Phoenix Family Medicine Residents Wiki", layout="wide")
-
-# Google OAuth Setup
-CLIENT_ID = "YOUR_GOOGLE_CLIENT_ID"
-CLIENT_SECRET = "YOUR_GOOGLE_CLIENT_SECRET"
-REDIRECT_URI = "http://localhost:8501"
+# Simulated database (replace with real DB in production)
+USER_DATABASE = {}
+VERIFICATION_CODES = {}
 AUTHORIZED_EMAILS = ["alloweduser1@example.com", "alloweduser2@example.com"]
 
-flow = Flow.from_client_secrets_file(
-    "client_secret.json",  # You must download this from Google API Console
-    scopes=["openid", "email", "profile"],
-    redirect_uri=REDIRECT_URI
-)
+# Email verification function
+def send_verification_email(email, code):
+    sender_email = "your-email@example.com"  # Replace with your email
+    sender_password = "your-email-password"  # Replace with a secure password
+    
+    with smtplib.SMTP("smtp.gmail.com", 587) as server:
+        server.starttls()
+        server.login(sender_email, sender_password)
+        message = f"Subject: Your Verification Code\n\nYour verification code is: {code}"
+        server.sendmail(sender_email, email, message)
+
+# Hashing function for password security
+def hash_password(password):
+    return hashlib.sha256(password.encode()).hexdigest()
+
+# User registration function
+def register():
+    email = st.text_input("Enter your email:")
+    if email in USER_DATABASE:
+        st.error("This email is already registered.")
+        return
+    if email not in AUTHORIZED_EMAILS:
+        st.error("You are not authorized to create an account.")
+        return
+    
+    if st.button("Send Verification Code"):
+        code = random.randint(100000, 999999)
+        VERIFICATION_CODES[email] = code
+        send_verification_email(email, code)
+        st.session_state["verifying"] = True
+        st.session_state["email"] = email
+        st.rerun()
+    
+    if "verifying" in st.session_state:
+        verification_code = st.text_input("Enter the verification code sent to your email:")
+        if st.button("Verify Code"):
+            if verification_code and int(verification_code) == VERIFICATION_CODES.get(email, 0):
+                st.session_state["verified"] = True
+                st.rerun()
+            else:
+                st.error("Invalid verification code.")
+    
+    if "verified" in st.session_state:
+        password = st.text_input("Create a Password:", type="password")
+        if st.button("Register"):
+            USER_DATABASE[email] = hash_password(password)
+            st.success("Registration successful! You can now log in.")
+            del st.session_state["verified"]
+            del st.session_state["verifying"]
+
+# User login function
+def login():
+    email = st.text_input("Email:")
+    password = st.text_input("Password:", type="password")
+    
+    if st.button("Login"):
+        if email in USER_DATABASE and USER_DATABASE[email] == hash_password(password):
+            st.session_state["authenticated"] = True
+            st.session_state["user_email"] = email
+            st.rerun()
+        else:
+            st.error("Invalid email or password.")
 
 if "authenticated" not in st.session_state:
     st.session_state["authenticated"] = False
 
-def authenticate():
-    auth_url, _ = flow.authorization_url(prompt="consent")
-    st.markdown(f"[Login with Google]({auth_url})")
-    
-    code = st.text_input("Enter the authentication code from Google:")
-    if st.button("Verify"):
-        try:
-            flow.fetch_token(code=code)
-            credentials = flow.credentials
-            request = google.auth.transport.requests.Request()
-            id_info = id_token.verify_oauth2_token(credentials.id_token, request, CLIENT_ID)
-            
-            user_email = id_info.get("email")
-            if user_email in AUTHORIZED_EMAILS:
-                st.session_state["authenticated"] = True
-                st.session_state["user_email"] = user_email
-                st.rerun()
-            else:
-                st.error("Access Denied: Unauthorized Email")
-        except Exception as e:
-            st.error("Authentication Failed")
-
 if not st.session_state["authenticated"]:
-    authenticate()
+    choice = st.radio("Select an option", ["Login", "Register"])
+    if choice == "Register":
+        register()
+    else:
+        login()
 else:
     st.title("UofA Phoenix Family Medicine Residents Wiki")
     st.sidebar.write(f"Logged in as: {st.session_state['user_email']}")
