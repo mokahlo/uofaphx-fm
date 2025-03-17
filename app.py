@@ -1,30 +1,7 @@
 import streamlit as st
-import os
-import openai  # OpenAI API for embeddings
-import pinecone  # Pinecone for vector storage
-import fitz  # PyMuPDF for PDF text and annotation extraction
-import hashlib # Used for generating unique document IDs
-import datetime # For timestamp-based naming
-import json  # For handling annotation metadata
 
 def main():
     st.set_page_config(page_title="UofA Phoenix Family Medicine Residents Wiki", layout="wide")
-    
-    if "authenticated" not in st.session_state:
-        st.session_state["authenticated"] = False
-    
-    def authenticate():
-        password = st.text_input("Enter Password:", type="password")
-        if st.button("Login"):
-            if password == "bannerhealth2024":
-                st.session_state["authenticated"] = True
-                st.rerun()
-            else:
-                st.error("Incorrect password. Please try again.")
-    
-    if not st.session_state["authenticated"]:
-        authenticate()
-        return
     
     st.sidebar.title("Navigation")
     page = st.sidebar.radio("Go to", ["Home", "Rotations Guide"])
