@@ -11,7 +11,7 @@ AUTHORIZED_EMAILS = ["mokahlou@gmail.com", "elemendza@gmail.com"]
 
 # Email verification function
 def send_verification_email(email, code):
-    sender_email = "your-email@example.com"  # Replace with your email
+    sender_email = "mokahlou@gmail.com"  # Replace with your email
     sender_password = os.getenv("GOOGLE_APP_PASSWORD")  # Retrieve password securely
     
     with smtplib.SMTP("smtp.gmail.com", 587) as server:
