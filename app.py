@@ -70,21 +70,65 @@ pgy1_rotations = {
     "Family Medicine Core Orientation": {
         "duration": "1 month",
         "location": "Banner – University Medical Center Phoenix",
-        "address" : "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
         "parking": "Free parking available on-site for residents.",
         "description": "An introduction to the fundamentals of family medicine, focusing on patient-centered, evidence-based care."
     },
     "Family Medicine Patient-Centered Medical Home Ambulatory": {
         "duration": "1 month",
         "location": "Banner – University Medical Center Phoenix Outpatient Clinics",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
         "parking": "Free parking available on-site for residents.",
         "description": "Experience in outpatient care emphasizing the patient-centered medical home model, focusing on continuity of care."
     },
     "Family Medicine Inpatient at Banner University Medical Center": {
         "duration": "6 weeks",
         "location": "Banner – University Medical Center Phoenix",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
         "parking": "Free parking available on-site for residents.",
         "description": "Inpatient care experience managing a diverse patient population with various medical conditions."
+    },
+    "Pediatric Inpatient at Phoenix Children's Hospital": {
+        "duration": "1 month",
+        "location": "Phoenix Children's Hospital",
+        "address": "1919 E. Thomas Rd., Phoenix, AZ 85016",
+        "parking": "Parking garage available; validation provided for residents.",
+        "description": "Comprehensive inpatient pediatric care, managing a wide range of childhood illnesses and conditions."
+    },
+    "Pediatric Outpatient at Valleywise Health": {
+        "duration": "1 month",
+        "location": "Valleywise Health Medical Center",
+        "address": "2601 E. Roosevelt St., Phoenix, AZ 85008",
+        "parking": "On-site parking available; permits provided.",
+        "description": "Outpatient pediatric care focusing on preventive medicine and common pediatric conditions."
+    },
+    "Newborn Care at Valleywise Health": {
+        "duration": "1 month",
+        "location": "Valleywise Health Medical Center",
+        "address": "2601 E. Roosevelt St., Phoenix, AZ 85008",
+        "parking": "On-site parking available; permits provided.",
+        "description": "Care for newborns, including routine examinations and management of common neonatal issues."
+    },
+    "General Surgery at Banner – University Medical Center Phoenix": {
+        "duration": "1 month",
+        "location": "Banner – University Medical Center Phoenix",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Exposure to general surgical procedures and perioperative patient management."
+    },
+    "Labor & Delivery at Banner – University Medical Center Phoenix": {
+        "duration": "1 month",
+        "location": "Banner – University Medical Center Phoenix",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Hands-on experience in managing labor, delivery, and postpartum care."
+    },
+    "Obstetrics Prenatal Clinic": {
+        "duration": "1 month",
+        "location": "Banner – University Medical Center Phoenix Outpatient Clinics",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Prenatal care focusing on routine examinations and management of common prenatal conditions."
     }
 }
 
@@ -92,20 +136,86 @@ pgy2_rotations = {
     "Family Medicine Inpatient": {
         "duration": "6 weeks",
         "location": "Banner – University Medical Center Phoenix",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
         "parking": "Free parking available on-site for residents.",
         "description": "Advanced inpatient care responsibilities, leading teams, and managing complex medical cases."
+    },
+    "Family Medicine Ambulatory Care": {
+        "duration": "1 month",
+        "location": "Banner – University Medical Center Phoenix Outpatient Clinics",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Continued experience in outpatient settings, focusing on chronic disease management and preventive care."
     },
     "Cardiology": {
         "duration": "1 month",
         "location": "Banner – University Medical Center Phoenix Cardiology Department",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
         "parking": "Free parking available on-site for residents.",
         "description": "Training in the diagnosis and management of cardiovascular diseases, including inpatient and outpatient settings."
     },
     "Community Medicine": {
         "duration": "1 month",
-        "location": "Community Health Centers in Phoenix",
+        "location": "Various Community Health Centers in Phoenix",
+        "address": "Varies by specific health center.",
         "parking": "Parking availability varies by location.",
         "description": "Engagement with community health initiatives and understanding public health principles."
+    },
+    "Geriatrics": {
+        "duration": "1 month",
+        "location": "Banner – University Medical Center Phoenix Geriatrics Department",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Focused on the care of elderly patients, addressing complex medical and psychosocial issues."
+    },
+    "ICU at Banner University Medical Center": {
+        "duration": "2 weeks",
+        "location": "Banner – University Medical Center Phoenix Intensive Care Unit",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Experience in managing critically ill patients in the intensive care setting."
+    },
+    "Pediatric Emergency Medicine - Phoenix Children's Hospital": {
+        "duration": "1 month",
+        "location": "Phoenix Children's Hospital",
+        "address": "1919 E. Thomas Rd., Phoenix, AZ 85016",
+        "parking": "Parking garage available; validation provided for residents.",
+        "description": "Training in pediatric emergency care, managing acute illnesses and injuries in children."
+    },
+    "Dermatology": {
+        "duration": "2 weeks",
+        "location": "Banner – University Medical Center Phoenix Dermatology Department",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Diagnosis and management of common dermatologic conditions."
+    },
+    "Musculoskeletal/Sports Medicine": {
+        "duration": "1 month",
+        "location": "Banner – University Medical Center Phoenix Sports Medicine Clinic",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Training in the management of musculoskeletal injuries and conditions, with a focus on sports-related issues."
+    },
+    "Emergency Medicine": {
+        "duration": "1 month",
+        "location": "Banner – University Medical Center Phoenix Emergency Department",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Exposure to a wide range of acute medical conditions in the emergency setting."
+    },
+    "Radiology": {
+        "duration": "2 weeks",
+        "location": "Banner – University Medical Center Phoenix Radiology Department",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Understanding imaging modalities and their application in diagnosis."
+    },
+    "Electives": {
+        "duration": "2 months",
+        "location": "Varies based on elective choice",
+        "address": "Varies by elective selection.",
+        "parking": "Varies by location.",
+        "description": "Opportunities to tailor training to specific interests or career goals, including potential research projects or specialized clinical experiences."
     }
 }
 
@@ -113,20 +223,58 @@ pgy3_rotations = {
     "Family Medicine Inpatient": {
         "duration": "6 weeks",
         "location": "Banner – University Medical Center Phoenix",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
         "parking": "Free parking available on-site for residents.",
         "description": "Leadership role in inpatient teams, mentoring junior residents, and managing complex cases."
     },
-    "Practice Management": {
+    "Family Medicine Ambulatory Care": {
         "duration": "1 month",
-        "location": "Banner – University Medical Center Phoenix",
+        "location": "Banner – University Medical Center Phoenix Outpatient Clinics",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
         "parking": "Free parking available on-site for residents.",
-        "description": "Training in the business aspects of medicine, including billing, coding, quality improvement, and leadership skills."
+        "description": "Advanced outpatient care, focusing on refining clinical skills, patient communication, and efficient practice management."
+    },
+    "Gynecology": {
+        "duration": "1 month",
+        "location": "Banner – University Medical Center Phoenix Gynecology Department",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Comprehensive training in women's health, including routine gynecological care and management of common conditions."
+    },
+    "Behavioral Health/Addiction": {
+        "duration": "2 months",
+        "location": "Banner – University Medical Center Phoenix Behavioral Health Department",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Focused on mental health care, substance use disorders, and integrating behavioral health into primary care."
+    },
+    "Musculoskeletal/Orthopedics": {
+        "duration": "1 month",
+        "location": "Banner – University Medical Center Phoenix Orthopedics Department",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Training in diagnosing and managing musculoskeletal conditions, including joint injections and fracture care."
+    },
+    "Pediatrics": {
+        "duration": "1 month",
+        "location": "Phoenix Children's Hospital",
+        "address": "1919 E. Thomas Rd., Phoenix, AZ 85016",
+        "parking": "Parking garage available; validation provided for residents.",
+        "description": "Comprehensive pediatric care, including preventive health, acute illnesses, and chronic condition management."
+    },
+    "Urology": {
+        "duration": "2 weeks",
+        "location": "Banner – University Medical Center Phoenix Urology Department",
+        "address": "1111 E. McDowell Rd., Phoenix, AZ 85006",
+        "parking": "Free parking available on-site for residents.",
+        "description": "Exposure to common urological conditions and procedures relevant to family medicine practice."
     },
     "Electives": {
-        "duration": "2 months",
+        "duration": "4 months",
         "location": "Varies based on elective choice",
+        "address": "Varies by elective selection.",
         "parking": "Varies by location.",
-        "description": "Further opportunities to tailor training to specific interests or career goals, including potential research projects or specialized clinical experiences."
+        "description": "Opportunities to tailor training to specific interests or career goals, including potential research projects or specialized clinical experiences."
     }
 }
 
