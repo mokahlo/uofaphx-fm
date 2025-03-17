@@ -61,6 +61,7 @@ def display_rotation_details(rotations):
         with st.expander(rotation):
             st.write(f"**Duration:** {details['duration']}")
             st.write(f"**Location:** {details['location']}")
+            st.write(f"**Address:** {details['location']}")
             st.write(f"**Parking Information:** {details['parking']}")
             st.write(f"**Description:** {details['description']}")
 
@@ -69,6 +70,7 @@ pgy1_rotations = {
     "Family Medicine Core Orientation": {
         "duration": "1 month",
         "location": "Banner – University Medical Center Phoenix",
+        "address" : "1111 E. McDowell Rd., Phoenix, AZ 85006",
         "parking": "Free parking available on-site for residents.",
         "description": "An introduction to the fundamentals of family medicine, focusing on patient-centered, evidence-based care."
     },
