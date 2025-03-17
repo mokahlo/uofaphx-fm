@@ -31,19 +31,21 @@ def send_verification_email(email, code):
 # Login function
 def login():
     email = st.text_input("Enter your email:")
-    if email not in AUTHORIZED_EMAILS:
+
+    # Only check authorization if the user has entered an email
+    if email and email not in AUTHORIZED_EMAILS:
         st.error("You are not authorized to log in.")
         return
 
-    if st.button("Send Verification Code"):
+    if email and st.button("Send Verification Code"):
         code = random.randint(100000, 999999)
         st.session_state["verification_code"] = code
         st.session_state["email"] = email
         send_verification_email(email, code)
-    
-    if "verification_code" in st.session_state:
+
+    if "verification_code" in st.session_state and st.session_state.get("email") == email:
         verification_code = st.text_input("Enter the verification code sent to your email:")
-        
+
         if st.button("Verify Code"):
             if verification_code and verification_code.strip().isdigit():
                 entered_code = int(verification_code.strip())
