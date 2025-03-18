@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-import auth  # Import the authentication module
+import auth  # Import authentication module
 
 # Configure Page
 st.set_page_config(page_title="Residency Rotations", page_icon="favicon.png", layout="wide")
@@ -10,12 +10,18 @@ ROTATIONS_FOLDER = "rotations"
 YEARS = ["PGY-1", "PGY-2", "PGY-3", "Electives"]
 
 # Check authentication before displaying content
-if "authenticated" not in st.session_state or not st.session_state["authenticated"]:
-    auth.login()
+if not st.session_state["authenticated"]:
+    auth.login()  # ✅ Call login function
 else:
     # Sidebar Navigation: Residency Years
     st.sidebar.title("Residency Years")
     selected_year = st.sidebar.radio("Select a Residency Year:", YEARS)
+
+    # ✅ Fix: Adjust Title Display for Electives
+    if selected_year == "Electives":
+        st.title("Electives")  # ✅ Show just "Electives"
+    else:
+        st.title(f"Residency Year: {selected_year}")  # ✅ Keep format for PGY-1, PGY-2, PGY-3
 
     # Get list of available rotations (text files) for the selected year
     year_folder_path = os.path.join(ROTATIONS_FOLDER, selected_year)
@@ -26,9 +32,7 @@ else:
         rotation_files = []
         rotation_names = []
 
-    # Display Tabs for Rotations in the Selected Residency Year
-    st.title(f"Residency Year: {selected_year}")
-
+    # Display Tabs for Rotations in the Selected Residency Year or Electives
     if rotation_files:
         selected_rotation = st.tabs(rotation_names)  # Create Tabs for each rotation
         
