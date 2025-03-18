@@ -1,5 +1,5 @@
 # Radiology
-## Diagnostic Radiology - Banner University Medical Center
+## Diagnostic Radiology
 
 **Duration:** 1 month  
 **Description:** Residents will gain exposure to a broad range of imaging modalities, including X-ray, CT, MRI, and ultrasound. The focus is on image interpretation, radiologic-pathologic correlation, and communication of findings to referring providers.  
