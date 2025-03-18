@@ -24,7 +24,7 @@ else:
     if selected_year == "Electives":
         st.title("Electives")
     else:
-        st.title(f"Residency Year: {selected_year}")
+        st.title(f"{selected_year}")
 
     # Function to read tab name & content from a .txt file
     def load_rotation_details(file_path):
