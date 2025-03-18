@@ -1,5 +1,5 @@
-title = Core Orientation
-# Core Orientation
+Core Orientation
+# Family Medicine Core Orientation
 **Duration:** 1 month
 
 **Description:** This rotation serves as an introduction to the residency program, focusing on familiarizing residents with the core principles of family medicine, program expectations, and available resources.
