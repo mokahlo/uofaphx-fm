@@ -1,11 +1,17 @@
 # Ambulatory
-## Family Medicine Home Ambulatory
-**Duration:** 1 month
+## Family Medicine Home Ambulatory - Banner University Medical Center
 
-**Description:** This rotation emphasizes outpatient care within a patient-centered medical home model, focusing on comprehensive, continuous, and coordinated care.
+**Duration:** 1 month  
+**Description:** Residents will engage in providing comprehensive primary care to patients in their homes, focusing on managing chronic conditions, preventive care, and addressing social determinants of health. This rotation emphasizes patient-centered care, continuity, and the effective delivery of healthcare services in a home setting.  
 
-**Objectives:**
-- Provide preventive and chronic disease management.
-- Collaborate with multidisciplinary teams.
-- Enhance communication skills with patients and families.
-- Utilize EMR for documentation and care coordination.
+**Objectives:**  
+- Conduct thorough medical histories and physical examinations in patients' homes, adapting to the home environment to provide effective care.  
+- Manage acute and chronic medical conditions commonly encountered in the home setting, including hypertension, diabetes, and mobility issues.  
+- Develop and implement individualized care plans that consider the patient's home environment, resources, and support systems.  
+- Identify and address social determinants of health that impact patient outcomes, such as housing conditions, access to nutritious food, and social support.  
+- Educate patients and their families on disease management, medication adherence, and lifestyle modifications to promote health and prevent disease progression.  
+- Collaborate with interdisciplinary teams, including nurses, social workers, and physical therapists, to provide holistic care and coordinate services.  
+- Document patient encounters accurately and efficiently, utilizing portable electronic medical records systems when available.  
+- Understand the logistics and challenges of delivering healthcare in the home setting, including safety considerations and resource limitations.  
+- Participate in quality improvement initiatives aimed at enhancing the delivery of home-based primary care services.  
+

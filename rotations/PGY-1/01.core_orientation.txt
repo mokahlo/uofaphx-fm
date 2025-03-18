@@ -1,13 +1,12 @@
 # Orientation
-## Orientation
+## Family Medicine Core Orientation - Banner University Medical Center
 
-**Duration:** 1 month
+**Duration:** 2 weeks  
+**Description:** Incoming residents will participate in a comprehensive orientation designed to prepare them for clinical responsibilities. The program includes training in electronic medical records (EMR), certifications in advanced life support protocols, and introductions to clinic workflows and hospital systems.  
 
-**Description:** This rotation serves as an introduction to the residency program, focusing on familiarizing residents with the core principles of family medicine, program expectations, and available resources.
-
-### Objectives
-- Understand the structure and goals of the residency program.
-- Meet faculty, staff, and fellow residents.
-- Learn about the electronic medical record (EMR) system and clinic workflows.
-- Participate in initial training sessions and workshops.
----
+**Objectives:**  
+- Obtain certifications in Advanced Cardiac Life Support (ACLS), Pediatric Advanced Life Support (PALS), and Neonatal Resuscitation Program (NRP).  
+- Gain proficiency in using the hospital's EMR system to document patient care effectively.  
+- Familiarize with clinic operations, including patient scheduling, interdisciplinary team roles, and quality improvement initiatives.  
+- Participate in team-building activities to foster collaboration and communication among residents and faculty.  
+- Understand the expectations and responsibilities of a family medicine resident within the healthcare system.  

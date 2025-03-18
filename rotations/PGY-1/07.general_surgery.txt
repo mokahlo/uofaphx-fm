@@ -1,12 +1,19 @@
 # Surgery
-## General Surgery
+## General Surgery - Banner University Medical Center
 
-**Last updated:** November 26th, 2024   
-**Contributors:** Anas Maatough, Natalie Alteri
- 
-**Duration:** 1 month   
-**Location:** Banner – University Medical Center Phoenix    
-**Description:** Offers exposure to general surgical procedures, perioperative care, and postoperative management.  
+**Duration:** 1 month  
+**Description:** Residents will gain hands-on experience in the evaluation and management of surgical patients, including preoperative, intraoperative, and postoperative care. The rotation emphasizes surgical decision-making, technical skill development, and collaboration with multidisciplinary teams.  
+
+**Objectives:**  
+- Perform comprehensive preoperative assessments, including history-taking, physical exams, and risk stratification.  
+- Assist in a variety of surgical procedures, including laparoscopic and open surgeries.  
+- Develop proficiency in basic surgical skills such as suturing, knot-tying, wound closure, and sterile technique.  
+- Manage postoperative patients, including pain control, wound care, and early detection of complications.  
+- Recognize and manage common surgical emergencies such as acute abdomen, bowel obstruction, and appendicitis.  
+- Participate in trauma assessments and gain experience in the initial resuscitation and management of surgical trauma patients.  
+- Interpret imaging studies relevant to surgical conditions, including CT scans, ultrasounds, and X-rays.  
+- Work collaboratively with anesthesiologists, nurses, and surgical teams to optimize patient outcomes.  
+- Engage in daily rounds, case discussions, and surgical morbidity and mortality conferences.  
 
 ---
 ### Parking
@@ -22,12 +29,6 @@
 - Security patrols are active throughout the hospital and parking facilities.  
 - In case of an emergency, **call hospital security or dial 911 for immediate assistance**.  
 - The hospital encourages residents to **avoid walking alone at night** and use designated security escort services when leaving the hospital after late shifts.    
----
-### Objectives
-- Assist in surgical procedures.
-- Perform preoperative and postoperative evaluations.
-- Understand surgical indications and contraindications.
-- Manage postoperative care and complications.
 ---
 ### First Day Logistics
 - A chief resident may reach out before the rotation to add you to the WhatsApp chat. Otherwise, contact a surgery intern to coordinate your arrival time.
