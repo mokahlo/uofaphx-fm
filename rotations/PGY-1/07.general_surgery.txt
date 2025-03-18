@@ -4,7 +4,7 @@
 **Duration:** 1 month  
 **Description:** Residents will gain hands-on experience in the evaluation and management of surgical patients, including preoperative, intraoperative, and postoperative care. The rotation emphasizes surgical decision-making, technical skill development, and collaboration with multidisciplinary teams.  
 
-**Objectives:**  
+### Objectives  
 - Perform comprehensive preoperative assessments, including history-taking, physical exams, and risk stratification.  
 - Assist in a variety of surgical procedures, including laparoscopic and open surgeries.  
 - Develop proficiency in basic surgical skills such as suturing, knot-tying, wound closure, and sterile technique.  
