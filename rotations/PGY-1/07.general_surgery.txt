@@ -7,17 +7,18 @@ Description: Offers exposure to general surgical procedures, perioperative care,
 Last updated: 11/26/24  
 Contributors: Anas Maatough, Natalie Alteri  
 
-----------------------------------------
+---
+
 ## Objectives
-----------------------------------------
 - Assist in surgical procedures.
 - Perform preoperative and postoperative evaluations.
 - Understand surgical indications and contraindications.
 - Manage postoperative care and complications.
 
-----------------------------------------
-First day logistics
-----------------------------------------
+---
+
+## First day logistics
+
 - A chief resident may reach out before the rotation to add you to the WhatsApp chat. Otherwise, contact a surgery intern to coordinate your arrival time.
 - Meet the resident team in the surgery resident room (across from the OR, past the waiting room elevators and through the double doors on the right).
 - The team coordinates everything via WhatsApp and will likely add you over the weekend or on your first day.
