@@ -1,4 +1,6 @@
-# Peds Inpatient at PCH
+# Geriatrics
+## Geriatrics
+
 **Duration:** 1 month
 
 **Description:** 

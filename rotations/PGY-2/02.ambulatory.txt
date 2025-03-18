@@ -1,5 +1,5 @@
-# IM Inpatient
-**Duration:** 1 month
+# Ambulatory
+##Family Medicine Ambulatory Care
 
 **Description:** 
 This rotation focuses on managing acutely ill adults in an inpatient setting, emphasizing evidence-based decision-making.

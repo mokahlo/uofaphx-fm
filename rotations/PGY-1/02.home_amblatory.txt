@@ -1,5 +1,5 @@
-# FM Home Ambulatory
-## FM Home Ambulatory
+# Ambulatory
+## Family Medicine Home Ambulatory
 **Duration:** 1 month
 
 **Description:** This rotation emphasizes outpatient care within a patient-centered medical home model, focusing on comprehensive, continuous, and coordinated care.

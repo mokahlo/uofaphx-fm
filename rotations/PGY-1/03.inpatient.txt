@@ -1,5 +1,5 @@
-# FM Inpatient at BUMCP
-## FM Inpatient at BUMCP
+# Inpatient
+## Family Medicine Inpatient at BUMCP
 **Duration:** 6 weeks
 
 **Description:** Residents manage hospitalized patients with various medical conditions, developing skills in acute care and hospital medicine.

@@ -1,5 +1,7 @@
-# FM Clinic
-**Duration:** 2 months
+# Inpatient
+## Family Medicine Inpatient	
+
+**Duration:** 6 weeks
 
 **Description:** 
 This rotation focuses on outpatient care in the FM clinic, emphasizing continuity of care, chronic disease management, and preventive medicine.
