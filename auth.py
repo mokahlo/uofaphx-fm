@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 
 # ✅ Ensure session state variables are initialized safely
 if "verification_codes" not in st.session_state:
-    st.session_state["verification_codes"] = []  # Stores {"email": ..., "code": ..., "expires_at": ...}
+    st.session_state["verification_codes"] = []  # Initialize as empty list
 
 if "authenticated" not in st.session_state:
     st.session_state["authenticated"] = False
@@ -42,6 +42,10 @@ def generate_code(email):
     new_code = random.randint(100000, 999999)  # 6-digit code
     expires_at = datetime.now() + timedelta(minutes=5)  # Expiry time
 
+    # ✅ Ensure session state variable is initialized before use
+    if "verification_codes" not in st.session_state:
+        st.session_state["verification_codes"] = []
+
     # Remove expired codes
     st.session_state["verification_codes"] = [
         c for c in st.session_state["verification_codes"] if c["expires_at"] > datetime.now()
@@ -59,6 +63,11 @@ def generate_code(email):
 def validate_code(email, input_code):
     """Checks if the entered verification code is still valid"""
     now = datetime.now()
+
+    # ✅ Ensure session state variable is initialized before use
+    if "verification_codes" not in st.session_state:
+        st.session_state["verification_codes"] = []
+
     valid_codes = [c["code"] for c in st.session_state["verification_codes"] if c["email"] == email and c["expires_at"] > now]
 
     return int(input_code) in valid_codes
@@ -66,6 +75,10 @@ def validate_code(email, input_code):
 def login():
     """Handles the authentication process in Streamlit"""
     
+    # ✅ Ensure session state variable is initialized before use
+    if "verification_codes" not in st.session_state:
+        st.session_state["verification_codes"] = []
+
     # ✅ Unique key to avoid StreamlitDuplicateElementId error
     email = st.text_input("Enter your email:", key="email_input").strip()
 
@@ -78,6 +91,10 @@ def login():
     if email and st.button("Send Verification Code", key="send_code_button"):
         code = generate_code(email)  # Generate & store code
         send_verification_email(email, code)
+
+    # ✅ Ensure session state variable is initialized before use
+    if "verification_codes" not in st.session_state:
+        st.session_state["verification_codes"] = []
 
     # ✅ Show remaining time for active verification code
     active_code_entry = next((c for c in st.session_state["verification_codes"] if c["email"] == email), None)
