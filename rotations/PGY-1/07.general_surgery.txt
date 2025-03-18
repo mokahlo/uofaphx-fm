@@ -1,17 +1,16 @@
-# General Surgery at BUMCP
-**Duration:** 1 month
+# General Surgery Y1 Guide
 
-**Description:** Offers exposure to general surgical procedures, perioperative care, and postoperative management.
+**Duration:** 1 month  
+**Description:** Offers exposure to general surgical procedures, perioperative care, and postoperative management.  
 
-**Objectives:**
+## Objectives:
 - Assist in surgical procedures.
 - Perform preoperative and postoperative evaluations.
 - Understand surgical indications and contraindications.
 - Manage postoperative care and complications.
 
-
-## Last updated: 11/26/24  
-**Contributors: Anas Maatough, Natalie Alteri
+**Last updated:** 11/26/24  
+**Contributors:** Anas Maatough, Natalie Alteri  
 
 ---
 
@@ -186,6 +185,4 @@
 </details>
 
 ---
-
-This structured `.txt` version incorporates **dropdowns** (for markdown-supported platforms like GitHub, Notion, or Markdown editors). Let me know if you'd like any refinements! 🚀
 
