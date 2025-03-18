@@ -1,10 +1,12 @@
 # FM Core Orientation
+
 **Duration:** 1 month
 
 **Description:** This rotation serves as an introduction to the residency program, focusing on familiarizing residents with the core principles of family medicine, program expectations, and available resources.
 
-**Objectives:**
+### Objectives
 - Understand the structure and goals of the residency program.
 - Meet faculty, staff, and fellow residents.
 - Learn about the electronic medical record (EMR) system and clinic workflows.
 - Participate in initial training sessions and workshops.
+---
