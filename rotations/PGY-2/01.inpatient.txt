@@ -1,13 +1,14 @@
 # Inpatient
-## Family Medicine Inpatient	
+## Family Medicine Inpatient - Banner University Medical Center
 
-**Duration:** 6 weeks
+**Duration:** 1 month  
+**Description:** Residents will gain experience in the management of hospitalized patients with acute and chronic medical conditions. The rotation emphasizes clinical reasoning, evidence-based medicine, and interdisciplinary collaboration in an inpatient setting.  
 
-**Description:** 
-This rotation focuses on outpatient care in the FM clinic, emphasizing continuity of care, chronic disease management, and preventive medicine.
-
-**Objectives:**
-- Conduct comprehensive primary care visits.
-- Manage chronic diseases such as diabetes and hypertension.
-- Develop patient communication and shared decision-making skills.
-- Perform in-office procedures under supervision.
+**Objectives:**  
+- Perform comprehensive history and physical examinations on hospitalized patients.  
+- Develop differential diagnoses and management plans for common inpatient conditions.  
+- Manage acute exacerbations of chronic diseases such as heart failure, COPD, and diabetes.  
+- Interpret laboratory results, imaging studies, and bedside procedures to guide patient care.  
+- Gain proficiency in inpatient procedures, including central line placement, lumbar punctures, and paracentesis.  
+- Collaborate with a multidisciplinary team, including hospitalists, pharmacists, case managers, and social workers.  
+- Participate in daily rounds, discharge planning, and care coordination to optimize patient outcomes.  
