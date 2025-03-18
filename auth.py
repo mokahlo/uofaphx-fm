@@ -4,7 +4,7 @@ import random
 import os
 from datetime import datetime, timedelta
 
-# Ensure session state variables are initialized
+# ✅ Ensure session state variables are initialized
 if "verification_codes" not in st.session_state:
     st.session_state["verification_codes"] = []  # Stores {"email": ..., "code": ..., "expires_at": ...}
 
@@ -22,10 +22,6 @@ def load_allowed_emails():
 
 AUTHORIZED_EMAILS = load_allowed_emails()
 
-# Initialize session storage for codes
-if "verification_codes" not in st.session_state:
-    st.session_state["verification_codes"] = []  # Stores {"email": ..., "code": ..., "expires_at": ...}
-
 def send_verification_email(email, code):
     """Sends the verification email with a 6-digit login code"""
     sender_email = "mokahlou@gmail.com"  # Replace with your Gmail
@@ -39,7 +35,7 @@ def send_verification_email(email, code):
             server.sendmail(sender_email, email, message)
         st.success("A login code has been sent to your email. Check your inbox.")
     except Exception as e:
-        st.error(f"Error sending email: {e}")
+        st.error("Error sending email. Please try again.")
 
 def generate_code(email):
     """Generates and stores a verification code with a 5-minute expiration"""
@@ -65,41 +61,4 @@ def validate_code(email, input_code):
     now = datetime.now()
     valid_codes = [c["code"] for c in st.session_state["verification_codes"] if c["email"] == email and c["expires_at"] > now]
 
-    return int(input_code) in valid_codes
-
-def login():
-    """Handles the authentication process in Streamlit"""
-    email = st.text_input("Enter your email:")
-
-    # Authorization Check
-    if email and email not in AUTHORIZED_EMAILS:
-        st.error("You are not authorized to log in.")
-        return
-
-    if email and st.button("Send Verification Code"):
-        code = generate_code(email)  # Generate & store code
-        send_verification_email(email, code)
-
-    # Display active codes for debugging (optional)
-    if email in [c["email"] for c in st.session_state["verification_codes"]]:
-        st.subheader("Active Codes:")
-        for code_entry in st.session_state["verification_codes"]:
-            if code_entry["email"] == email:
-                remaining_time = (code_entry["expires_at"] - datetime.now()).seconds
-                st.write(f"🔢 **{code_entry['code']}** - Expires in {remaining_time // 60}:{remaining_time % 60:02d} minutes")
-
-    # Validate user input code
-    if email:
-        verification_code = st.text_input("Enter the verification code sent to your email:")
-
-        if st.button("Verify Code"):
-            if verification_code and verification_code.strip().isdigit():
-                entered_code = verification_code.strip()
-                if validate_code(email, entered_code):
-                    st.session_state["authenticated"] = True
-                    st.success("✅ Login successful!")
-                    st.rerun()
-                else:
-                    st.error("❌ Invalid or expired code. Please try again.")
-            else:
-                st.error("⚠️ Please enter a valid 6-digit code.")
+    return int(input_code
