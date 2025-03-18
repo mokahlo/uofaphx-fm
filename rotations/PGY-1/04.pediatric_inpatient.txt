@@ -1,4 +1,5 @@
 # Peds Inpatient at PCH
+## Peds Inpatient at PCH
 **Duration:** 1 month
 
 **Description:** This rotation offers experience in managing hospitalized children with diverse medical conditions, enhancing pediatric assessment and treatment skills.
