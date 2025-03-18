@@ -1,4 +1,5 @@
-## 00 Emergency Medicine
+# Emergency
+## Emergency Medicine
 
 Last updated: [Insert Date]
 
