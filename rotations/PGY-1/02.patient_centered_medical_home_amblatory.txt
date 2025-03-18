@@ -1,4 +1,4 @@
-# Patient-Centered Medical Home Ambulatory
+# FM Patient-Centered Medical Home Ambulatory
 **Duration:** 1 month
 
 **Description:** This rotation emphasizes outpatient care within a patient-centered medical home model, focusing on comprehensive, continuous, and coordinated care.

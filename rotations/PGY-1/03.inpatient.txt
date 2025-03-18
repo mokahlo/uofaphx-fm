@@ -1,4 +1,4 @@
-# Family Medicine Inpatient at Banner University Medical Center
+# FM Inpatient at BUMCP
 **Duration:** 6 weeks
 
 **Description:** Residents manage hospitalized patients with various medical conditions, developing skills in acute care and hospital medicine.
