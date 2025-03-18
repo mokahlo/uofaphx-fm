@@ -26,7 +26,6 @@ Contributors: Anas Maatough, Natalie Alteri
 - Chart preparation: Check vital signs, necessary labs (e.g., Ca for endocrine patients), PRN meds, I/Os for patients with drains, foleys, chest tubes, etc.
 ---
 ### About the service
----
 - The A/Endo surgery service covers elective general and endocrine surgeries.
 - Consults are mainly for previous or upcoming surgeries by elective general surgery attendings.
 - Endocrine consults are less common but do happen.
@@ -76,21 +75,21 @@ Contributors: Anas Maatough, Natalie Alteri
 - Assigned to clinic attendings weekly.
 - Clinic location: 1441 Building, 2nd Floor. Employee garage parking available.
 - Workflow:
-  - See patients (~10 min), then present to attending.
-  - Focus on surgical eligibility and next steps.
+    - See patients (~10 min), then present to attending.
+    - Focus on surgical eligibility and next steps.
 ---
 ### Endocrine Surgery Important History Considerations
-Thyroid nodules:
-- Referral source (endocrinologist vs PCP).
-- Key labs: TSH, Free T3/T4, Thyroglobulin, TRAb/TBII.
-- Family history (MEN syndromes, thyroid cancer).
+- Thyroid nodules:
+    - Referral source (endocrinologist vs PCP).
+    - Key labs: TSH, Free T3/T4, Thyroglobulin, TRAb/TBII.
+    - Family history (MEN syndromes, thyroid cancer).
 
-Primary hyperparathyroidism:
-- Earliest calcium elevation (often years before diagnosis).
-- DEXA scans (osteopenia/osteoporosis focus on forearm).
-- Preferred imaging: 4D CT (not sestamibi scan).
+- Primary hyperparathyroidism:
+   - Earliest calcium elevation (often years before diagnosis).
+   - DEXA scans (osteopenia/osteoporosis focus on forearm).
+   - Preferred imaging: 4D CT (not sestamibi scan).
 ---
-### General surgery - Important Considerations
+### General Surgery Important Considerations
 - Hiatal hernia evaluation:
     - Symptom differentiation:
         - Dysphagia: Obstruction
@@ -101,7 +100,7 @@ Primary hyperparathyroidism:
        - Barium swallow (sensitivity for diagnosing hernias)
        - Esophageal manometry (rule out motility disorders)
 ---
-### Attending-specific Expectations
+### Attending-Specific Expectations
 - Dr. Metzger (Endocrine Surgery):
    - See new patients only, fill out HPI section in Cerner.
    - Prefers specific genetic markers.
