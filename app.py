@@ -54,8 +54,13 @@ else:
     if os.path.exists(year_folder_path):
         rotation_files = [f for f in os.listdir(year_folder_path) if f.endswith(".txt")]
 
-        # ✅ Sort rotation files based on numerical prefix
-        rotation_files.sort(key=lambda x: int(x.split("_")[0]))
+        # ✅ Enhanced Sorting: Extract numeric prefix safely
+        def extract_number(filename):
+            """Extracts the numeric prefix from a filename, defaults to a high number if missing"""
+            parts = filename.split("_", 1)  # Split at the first underscore
+            return int(parts[0]) if parts[0].isdigit() else 999  # Default to 999 if no number
+
+        rotation_files.sort(key=extract_number)
 
         rotation_details = [load_rotation_details(os.path.join(year_folder_path, f)) for f in rotation_files]
         tab_names = [details[0] for details in rotation_details]  # Extract titles as tab names
