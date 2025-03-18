@@ -2,14 +2,13 @@
 
 Duration: 1 month
 
-Description:
-Offers exposure to general surgical procedures, perioperative care, and postoperative management.
+Description: Offers exposure to general surgical procedures, perioperative care, and postoperative management.
 
 Last updated: 11/26/24  
 Contributors: Anas Maatough, Natalie Alteri  
 
 ----------------------------------------
-Objectives
+## Objectives
 ----------------------------------------
 - Assist in surgical procedures.
 - Perform preoperative and postoperative evaluations.
