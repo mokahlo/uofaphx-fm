@@ -91,29 +91,29 @@ Primary hyperparathyroidism:
 - Preferred imaging: 4D CT (not sestamibi scan).
 ---
 ### General surgery - Important Considerations
-Hiatal hernia evaluation:
-    Symptom differentiation:
-        Dysphagia: Obstruction
-        Heartburn: Common
-        Regurgitation: Advanced disease
-- Diagnostic tests:
-       Endoscopy (damage assessment)
-       Barium swallow (sensitivity for diagnosing hernias)
-       Esophageal manometry (rule out motility disorders)
+- Hiatal hernia evaluation:
+    - Symptom differentiation:
+        - Dysphagia: Obstruction
+        - Heartburn: Common
+        - Regurgitation: Advanced disease
+    - Diagnostic tests:
+       - Endoscopy (damage assessment)
+       - Barium swallow (sensitivity for diagnosing hernias)
+       - Esophageal manometry (rule out motility disorders)
 ---
 ### Attending-specific Expectations
-Dr. Metzger (Endocrine Surgery):
-   See new patients only, fill out HPI section in Cerner.
-   Prefers specific genetic markers.
-Dr. Milas (Endocrine Surgery):
-    Expect high levels of teaching and ultrasound training.
+- Dr. Metzger (Endocrine Surgery):
+   - See new patients only, fill out HPI section in Cerner.
+   - Prefers specific genetic markers.
+- Dr. Milas (Endocrine Surgery):
+    - Expect high levels of teaching and ultrasound training.
     - Requires chart prep document for all patients.
-Dr. Nelson (Endocrine & General Surgery):
+- Dr. Nelson (Endocrine & General Surgery):
     - Strict 10-minute visit timeframe.
-Dr. Rajdev (General Surgery):
+- Dr. Rajdev (General Surgery):
     - Write entire note (HPI, PE, A/P).
     - Teaching is ongoing throughout the day.
-Dr. Soper (General Surgery):
+- Dr. Soper (General Surgery):
     - Interns write the entire note.
     - Main surgical barrier: BMI >35.
 ---
