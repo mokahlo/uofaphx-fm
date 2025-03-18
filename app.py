@@ -2,6 +2,9 @@ import streamlit as st
 import os
 import auth  # Import authentication module
 
+# ✅ Ensure session state variables are initialized to avoid KeyError
+st.session_state.setdefault("authenticated", False)
+
 # Configure Page
 st.set_page_config(page_title="Residency Rotations", page_icon="favicon.png", layout="wide")
 
