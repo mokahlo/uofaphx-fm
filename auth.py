@@ -4,6 +4,13 @@ import random
 import os
 from datetime import datetime, timedelta
 
+# Ensure session state variables are initialized
+if "verification_codes" not in st.session_state:
+    st.session_state["verification_codes"] = []  # Stores {"email": ..., "code": ..., "expires_at": ...}
+
+if "authenticated" not in st.session_state:
+    st.session_state["authenticated"] = False
+
 # Load allowed emails from external file
 def load_allowed_emails():
     """Loads a list of authorized emails from emails.txt"""
