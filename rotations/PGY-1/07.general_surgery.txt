@@ -1,5 +1,5 @@
-GENERAL SURGERY Y1 GUIDE
-=========================
+## General Surgery
+
 Duration: 1 month
 
 Description:
@@ -9,7 +9,7 @@ Last updated: 11/26/24
 Contributors: Anas Maatough, Natalie Alteri  
 
 ----------------------------------------
-OBJECTIVES
+Objectives
 ----------------------------------------
 - Assist in surgical procedures.
 - Perform preoperative and postoperative evaluations.
@@ -17,133 +17,129 @@ OBJECTIVES
 - Manage postoperative care and complications.
 
 ----------------------------------------
-FIRST DAY LOGISTICS
+First day logistics
 ----------------------------------------
 - A chief resident may reach out before the rotation to add you to the WhatsApp chat. Otherwise, contact a surgery intern to coordinate your arrival time.
-- Meet the resident team in the **surgery resident room** (across from the OR, past the waiting room elevators and through the double doors on the right).
+- Meet the resident team in the surgery resident room (across from the OR, past the waiting room elevators and through the double doors on the right).
 - The team coordinates everything via WhatsApp and will likely add you over the weekend or on your first day.
 
 ----------------------------------------
-ROUNDS
+Rounds
 ----------------------------------------
-- **Start Time:** Between 6 AM and 7 AM, depending on the patient list.
-- **No prerounding** is required. Rounds are conducted with just the **resident team**.
-- **Interns do not present on rounds**. Medical students may present occasionally.
-- **Chart Preparation:** Check vital signs, necessary labs (e.g., Ca for endocrine patients), PRN meds, I/Os for patients with drains, foleys, chest tubes, etc.
+- Start time: Between 6 AM and 7 AM, depending on the patient list.
+- No prerounding is required. Rounds are conducted with just the resident team.
+- Interns do not present on rounds. Medical students may present occasionally.
+- Chart preparation: Check vital signs, necessary labs (e.g., Ca for endocrine patients), PRN meds, I/Os for patients with drains, foleys, chest tubes, etc.
 
 ----------------------------------------
-ABOUT THE SERVICE
+About the service
 ----------------------------------------
-- The **A/Endo surgery service** covers elective general and endocrine surgeries.
-- Consults are mainly for **previous or upcoming surgeries** by elective general surgery attendings.
+- The A/Endo surgery service covers elective general and endocrine surgeries.
+- Consults are mainly for previous or upcoming surgeries by elective general surgery attendings.
 - Endocrine consults are less common but do happen.
 
-**Elective Surgery Discharges:**
-- **Same-day discharge:** Inguinal/umbilical hernias, cholecystectomies.
-- **Next-day discharge:** Hiatal hernias, endocrine surgeries (parathyroid/thyroid).
+Elective surgery discharges:
+- Same-day discharge: Inguinal/umbilical hernias, cholecystectomies.
+- Next-day discharge: Hiatal hernias, endocrine surgeries (parathyroid/thyroid).
 
 ----------------------------------------
-TEAM STRUCTURE
+Team structure
 ----------------------------------------
-- **2 Fifth-Year Surgery Residents (Chiefs)**
-  - 1 for endocrine surgery.
-  - 1 for the A general surgery service.
-- **1 Second-Year Surgery Resident** (covers both services).
-- **1 Surgery Intern** (covers both services).
-- **1 Family Medicine Intern** (when scheduled).
-- **1 Fourth-Year Medical Student.**
-- **2 Third-Year Medical Students** (1 for endocrine, 1 for general surgery).
+- 2 fifth-year surgery residents (chiefs)
+  - 1 for endocrine surgery
+  - 1 for the A general surgery service
+- 1 second-year surgery resident (covers both services)
+- 1 surgery intern (covers both services)
+- 1 family medicine intern (when scheduled)
+- 1 fourth-year medical student
+- 2 third-year medical students (1 for endocrine, 1 for general surgery)
 
 ----------------------------------------
-SCHEDULE & SERVICE EXPECTATIONS
+Schedule and service expectations
 ----------------------------------------
-- **Monday–Friday:** Elective surgeries; family medicine interns assigned to clinic (preferences considered).
-- If **no clinic attendings are present**, interns may be assigned to the OR or floor duties.
-- **Thursday Didactics (7 AM–12 PM):**
-  - Rounds occur at **6–6:30 AM** before didactics.
+- Monday–Friday: Elective surgeries; family medicine interns assigned to clinic (preferences considered).
+- If no clinic attendings are present, interns may be assigned to the OR or floor duties.
+- Thursday didactics (7 AM–12 PM):
+  - Rounds occur at 6–6:30 AM before didactics.
   - The A/Endo intern covers the service while surgery residents attend didactics.
-- **Weekend Coverage:**
-  - Usually work **Saturdays, off Sundays** (unless on a black/gold weekend schedule).
+- Weekend coverage:
+  - Usually work Saturdays, off Sundays (unless on a black/gold weekend schedule).
   - Friday surgery cases admitted overnight are typically discharged Saturday.
 
 ----------------------------------------
-SIGN-OUT PROCEDURES
+Sign-out procedures
 ----------------------------------------
-- **Weekdays (M, T, W, F):** 5 PM, New Tower 4th Floor Conference Room.
-- **Thursdays:** 6 PM, Trauma Bay.
-- **Weekends:** 5 PM, Trauma Bay.
-- Patient list is updated in the **Teams Surgery Group**. Interns must help maintain this document.
+- Weekdays (Monday, Tuesday, Wednesday, Friday): 5 PM, New Tower 4th Floor Conference Room.
+- Thursdays: 6 PM, Trauma Bay.
+- Weekends: 5 PM, Trauma Bay.
+- Patient list is updated in the Teams Surgery Group. Interns must help maintain this document.
 
 ----------------------------------------
-PROGRESS NOTES & ORDERS
+Progress notes and orders
 ----------------------------------------
-- **Notes follow standard templates** for general and endocrine surgeries.
+- Notes follow standard templates for general and endocrine surgeries.
 - Notes are divided among interns, residents, and medical students.
-- Hospital orders are typically handled by **surgery residents**, but interns may be asked to place discharge orders.
+- Hospital orders are typically handled by surgery residents, but interns may be asked to place discharge orders.
 
-**Standard Discharges:**
-- **Same-day discharge:** Inguinal hernia, cholecystectomy → Ibuprofen, acetaminophen, polyethylene glycol.
-- **Hiatal hernia:** Requires **upper GI contrast study on post-op day 1** before diet advancement.
-- **Parathyroidectomy:** **Post-op day 2 discharge**. Monitor for **hypocalcemia** (numbness, tingling). Calcium carbonate (Tums) required for **3 weeks**.
-- **Thyroidectomy:** **Post-op day 2 discharge**. Monitor for **laryngeal nerve irritation** (hoarseness). **Total thyroidectomy patients need levothyroxine** (90-day supply).
+Standard discharges:
+- Same-day discharge: Inguinal hernia, cholecystectomy → Ibuprofen, acetaminophen, polyethylene glycol.
+- Hiatal hernia: Requires upper GI contrast study on post-op day 1 before diet advancement.
+- Parathyroidectomy: Post-op day 2 discharge. Monitor for hypocalcemia (numbness, tingling). Calcium carbonate (Tums) required for 3 weeks.
+- Thyroidectomy: Post-op day 2 discharge. Monitor for laryngeal nerve irritation (hoarseness). Total thyroidectomy patients need levothyroxine (90-day supply).
 
 ----------------------------------------
-CLINIC EXPECTATIONS
+Clinic expectations
 ----------------------------------------
-- Assigned to **clinic attendings** weekly.
-- **Clinic Location:** 1441 Building, 2nd Floor. Employee garage parking available.
-- **Workflow:**
+- Assigned to clinic attendings weekly.
+- Clinic location: 1441 Building, 2nd Floor. Employee garage parking available.
+- Workflow:
   - See patients (~10 min), then present to attending.
-  - Focus on **surgical eligibility** and next steps.
+  - Focus on surgical eligibility and next steps.
 
 ----------------------------------------
-ENDOCRINE SURGERY - IMPORTANT HISTORY CONSIDERATIONS
+Endocrine surgery - important history considerations
 ----------------------------------------
-**Thyroid Nodules**
-- Referral source (**Endocrinologist vs PCP**).
-- Key labs: **TSH, Free T3/T4, Thyroglobulin, TRAb/TBII.**
+Thyroid nodules:
+- Referral source (endocrinologist vs PCP).
+- Key labs: TSH, Free T3/T4, Thyroglobulin, TRAb/TBII.
 - Family history (MEN syndromes, thyroid cancer).
 
-**Primary Hyperparathyroidism**
-- **Earliest calcium elevation** (often years before diagnosis).
-- **DEXA scans** (osteopenia/osteoporosis focus on forearm).
-- **Preferred imaging:** **4D CT** (NOT sestamibi scan).
+Primary hyperparathyroidism:
+- Earliest calcium elevation (often years before diagnosis).
+- DEXA scans (osteopenia/osteoporosis focus on forearm).
+- Preferred imaging: 4D CT (not sestamibi scan).
 
 ----------------------------------------
-GENERAL SURGERY - IMPORTANT CONSIDERATIONS
+General surgery - important considerations
 ----------------------------------------
-**Hiatal Hernia Evaluation**
-- **Symptom differentiation:**
-  - **Dysphagia:** Obstruction.
-  - **Heartburn:** Common.
-  - **Regurgitation:** Advanced disease.
-- **Diagnostic Tests:**
-  - **Endoscopy** (damage assessment).
-  - **Barium swallow** (sensitivity for diagnosing hernias).
-  - **Esophageal manometry** (rule out motility disorders).
-
-----------------------------------------
-ATTENDING-SPECIFIC EXPECTATIONS
-----------------------------------------
-**Dr. Metzger (Endocrine Surgery)**
-- See **new patients only**, fill out **HPI section in Cerner**.
-- Prefers **specific genetic markers**.
-
-**Dr. Milas (Endocrine Surgery)**
-- Expect **high levels of teaching and ultrasound training**.
-- Requires **chart prep document** for **all patients**.
-
-**Dr. Nelson (Endocrine & General Surgery)**
-- Strict **10-minute** visit timeframe.
-
-**Dr. Rajdev (General Surgery)**
-- Write **entire note** (HPI, PE, A/P).
-- Teaching is **ongoing throughout the day**.
-
-**Dr. Soper (General Surgery)**
-- Interns **write the entire note**.
-- **Main surgical barrier:** **BMI >35**.
+Hiatal hernia evaluation:
+- Symptom differentiation:
+  - Dysphagia: Obstruction
+  - Heartburn: Common
+  - Regurgitation: Advanced disease
+- Diagnostic tests:
+  - Endoscopy (damage assessment)
+  - Barium swallow (sensitivity for diagnosing hernias)
+  - Esophageal manometry (rule out motility disorders)
 
 ----------------------------------------
-END OF DOCUMENT
+Attending-specific expectations
 ----------------------------------------
+Dr. Metzger (Endocrine Surgery):
+- See new patients only, fill out HPI section in Cerner.
+- Prefers specific genetic markers.
+
+Dr. Milas (Endocrine Surgery):
+- Expect high levels of teaching and ultrasound training.
+- Requires chart prep document for all patients.
+
+Dr. Nelson (Endocrine & General Surgery):
+- Strict 10-minute visit timeframe.
+
+Dr. Rajdev (General Surgery):
+- Write entire note (HPI, PE, A/P).
+- Teaching is ongoing throughout the day.
+
+Dr. Soper (General Surgery):
+- Interns write the entire note.
+- Main surgical barrier: BMI >35.
