@@ -1,0 +1,10 @@
+# Obstetrics Prenatal Clinic
+**Duration:** 1 month
+
+**Description:** Focuses on prenatal care, including routine assessments, patient education, and management of common pregnancy-related conditions.
+
+**Objectives:**
+- Conduct prenatal visits and assessments.
+- Monitor fetal development and maternal health.
+- Educate patients on pregnancy, childbirth, and postpartum care.
+- Identify and manage common prenatal complications.
