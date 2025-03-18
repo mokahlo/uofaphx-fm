@@ -4,6 +4,7 @@ import auth  # Import authentication module
 
 # ✅ Ensure session state variables are initialized to avoid KeyError
 st.session_state.setdefault("authenticated", False)
+st.session_state.setdefault("tab_index", 0)  # Track tab index for scrolling
 
 # Configure Page
 st.set_page_config(page_title="Residency Rotations", page_icon="favicon.png", layout="wide")
@@ -71,10 +72,21 @@ else:
 
     # Display Tabs for Rotations in the Selected Residency Year or Electives
     if rotation_files:
-        selected_rotation = st.tabs(tab_names)  # Create tabs from extracted titles
+        # ✅ Create left and right navigation buttons for scrolling
+        col1, col2, col3 = st.columns([1, 8, 1])
 
-        for i, (tab_name, content) in enumerate(rotation_details):
-            with selected_rotation[i]:
-                st.markdown(content)  # ✅ Display only content (no redundant title)
+        with col1:
+            if st.button("⬅", disabled=st.session_state.tab_index == 0):
+                st.session_state.tab_index = max(0, st.session_state.tab_index - 1)
+
+        with col3:
+            if st.button("➡", disabled=st.session_state.tab_index + 1 >= len(tab_names)):
+                st.session_state.tab_index = min(len(tab_names) - 1, st.session_state.tab_index + 1)
+
+        # ✅ Display only the currently selected tab
+        selected_tab = tab_names[st.session_state.tab_index]
+        st.subheader(selected_tab)
+        st.markdown(rotation_details[st.session_state.tab_index][1])  # Show content for the selected tab
+
     else:
         st.warning(f"No rotations found for {selected_year}. Please check the folder structure.")
