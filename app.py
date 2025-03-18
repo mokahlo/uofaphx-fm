@@ -53,6 +53,10 @@ else:
     year_folder_path = os.path.join(ROTATIONS_FOLDER, selected_year)
     if os.path.exists(year_folder_path):
         rotation_files = [f for f in os.listdir(year_folder_path) if f.endswith(".txt")]
+
+        # ✅ Sort rotation files based on numerical prefix
+        rotation_files.sort(key=lambda x: int(x.split("_")[0]))
+
         rotation_details = [load_rotation_details(os.path.join(year_folder_path, f)) for f in rotation_files]
         tab_names = [details[0] for details in rotation_details]  # Extract titles as tab names
     else:
