@@ -61,6 +61,15 @@ def validate_code(email, input_code):
     return int(input_code) in valid_codes
 
 def login():
+    # ✅ Ensure session state variable is initialized before use
+    if "verification_codes" not in st.session_state:
+        st.session_state["verification_codes"] = []  # Initialize as empty list
+    
+    email = st.text_input("Enter your email:")
+    
+    if st.button("Send Verification Code"):
+        code = generate_code(email)  # ✅ Now safe to call, no KeyError
+        
     """Handles the authentication process in Streamlit"""
     email = st.text_input("Enter your email:").strip()  # ✅ Automatically remove leading/trailing spaces
 
