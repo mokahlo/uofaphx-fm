@@ -1,12 +1,26 @@
 ## General Surgery
 
-Duration: 1 month
-
-Description: Offers exposure to general surgical procedures, perioperative care, and postoperative management.
-
 Last updated: 11/26/24  
-Contributors: Anas Maatough, Natalie Alteri  
+Contributors: Anas Maatough, Natalie Alteri 
 
+Duration: 1 month
+Location: Banner – University Medical Center Phoenix
+Address: 1111 East McDowell Road, Phoenix, AZ 85006
+Description: Offers exposure to general surgical procedures, perioperative care, and postoperative management.
+---
+### Parking
+- Residents and hospital staff can park in the **employee parking garage**, located adjacent to the main hospital building.  
+- The **garage entrance is accessible via 12th Street & McDowell Road**.  
+- Badges are required for entry into designated employee parking areas.  
+- Limited visitor parking is available in the **surface lot near the main entrance**.  
+- For night shifts, it's recommended to park in **well-lit areas** and use hospital security escort services if needed.
+---
+### Security
+- **Hospital security is available 24/7** and can be contacted at **(602) 839-2073** for any concerns or escort requests.  
+- Badge access is required for **restricted areas, resident call rooms, and staff lounges**.  
+- Security patrols are active throughout the hospital and parking facilities.  
+- In case of an emergency, **call hospital security or dial 911 for immediate assistance**.  
+- The hospital encourages residents to **avoid walking alone at night** and use designated security escort services when leaving the hospital after late shifts.    
 ---
 ### Objectives
 - Assist in surgical procedures.
@@ -14,7 +28,7 @@ Contributors: Anas Maatough, Natalie Alteri
 - Understand surgical indications and contraindications.
 - Manage postoperative care and complications.
 ---
-### First day logistics
+### First Day Logistics
 - A chief resident may reach out before the rotation to add you to the WhatsApp chat. Otherwise, contact a surgery intern to coordinate your arrival time.
 - Meet the resident team in the surgery resident room (across from the OR, past the waiting room elevators and through the double doors on the right).
 - The team coordinates everything via WhatsApp and will likely add you over the weekend or on your first day.
@@ -25,12 +39,12 @@ Contributors: Anas Maatough, Natalie Alteri
 - Interns do not present on rounds. Medical students may present occasionally.
 - Chart preparation: Check vital signs, necessary labs (e.g., Ca for endocrine patients), PRN meds, I/Os for patients with drains, foleys, chest tubes, etc.
 ---
-### About the service
+### About The Service
 - The A/Endo surgery service covers elective general and endocrine surgeries.
 - Consults are mainly for previous or upcoming surgeries by elective general surgery attendings.
 - Endocrine consults are less common but do happen.
 ---
-### Elective surgery discharges
+### Elective Surgery Discharges
 - Same-day discharge: Inguinal/umbilical hernias, cholecystectomies.
 - Next-day discharge: Hiatal hernias, endocrine surgeries (parathyroid/thyroid).
 ---
