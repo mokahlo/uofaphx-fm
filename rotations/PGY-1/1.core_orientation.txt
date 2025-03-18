@@ -1,3 +1,4 @@
+title = Core Orientation
 # Core Orientation
 **Duration:** 1 month
 
