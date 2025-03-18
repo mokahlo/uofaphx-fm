@@ -1,4 +1,4 @@
-# Pediatrics Inpatient at PCH
+# Peds Inpatient at PCH
 **Duration:** 1 month
 
 **Description:** 

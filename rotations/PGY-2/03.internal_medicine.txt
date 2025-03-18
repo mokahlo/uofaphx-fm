@@ -1,4 +1,4 @@
-# Internal Medicine Inpatient
+# IM Inpatient
 **Duration:** 1 month
 
 **Description:** 
