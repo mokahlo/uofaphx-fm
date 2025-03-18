@@ -1,4 +1,5 @@
-# GI/Proctology
+# GI
+## GI/Proctology
 
 Last updated: [Insert Date]
 

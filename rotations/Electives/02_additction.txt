@@ -1,4 +1,5 @@
-# Addiction Medicine
+# Addiction
+## Addiction Medicine
 
 Last updated: [Insert Date]
 
