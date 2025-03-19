@@ -3,6 +3,7 @@ import smtplib
 import random
 import os
 from datetime import datetime, timedelta
+import pytz
 
 # ✅ Ensure session state variables are initialized safely
 if "verification_codes" not in st.session_state:
@@ -40,7 +41,7 @@ def send_verification_email(email, code):
 def generate_code(email):
     """Generates and stores a verification code with a 5-minute expiration"""
     new_code = random.randint(100000, 999999)  # 6-digit code
-    expires_at = datetime.now() + timedelta(minutes=5)  # Expiry time
+    expires_at = datetime.now(pytz.utc) + timedelta(minutes=5)  # Store in UTC
 
     # ✅ Ensure session state variable is initialized before use
     if "verification_codes" not in st.session_state:
@@ -48,7 +49,7 @@ def generate_code(email):
 
     # Remove expired codes
     st.session_state["verification_codes"] = [
-        c for c in st.session_state["verification_codes"] if c["expires_at"] > datetime.now()
+        c for c in st.session_state["verification_codes"] if c["expires_at"] > datetime.now(pytz.utc)
     ]
 
     # Store the new code with expiration
@@ -62,7 +63,7 @@ def generate_code(email):
 
 def validate_code(email, input_code):
     """Checks if the entered verification code is still valid"""
-    now = datetime.now()
+    now = datetime.now(pytz.utc)
 
     # ✅ Ensure session state variable is initialized before use
     if "verification_codes" not in st.session_state:
@@ -71,6 +72,12 @@ def validate_code(email, input_code):
     valid_codes = [c["code"] for c in st.session_state["verification_codes"] if c["email"] == email and c["expires_at"] > now]
 
     return int(input_code) in valid_codes
+
+def format_expiration_time(expiration_time_utc):
+    """Formats expiration time to Arizona Time (MST or MDT)"""
+    arizona_tz = pytz.timezone("America/Phoenix")
+    expiration_time_az = expiration_time_utc.astimezone(arizona_tz)
+    return expiration_time_az.strftime("Expires on %B %d, %Y, at %I:%M %p Arizona Time")
 
 def login():
     """Handles the authentication process in Streamlit"""
@@ -96,12 +103,12 @@ def login():
     if "verification_codes" not in st.session_state:
         st.session_state["verification_codes"] = []
 
-    # ✅ Show remaining time for active verification code
+    # ✅ Show expiration time for active verification code
     active_code_entry = next((c for c in st.session_state["verification_codes"] if c["email"] == email), None)
     if active_code_entry:
-        remaining_time = (active_code_entry["expires_at"] - datetime.now()).seconds
+        expiration_message = format_expiration_time(active_code_entry["expires_at"])
         st.subheader("Your code is active:")
-        st.write(f"⏳ Your code will expire in {remaining_time // 60}:{remaining_time % 60:02d} minutes.")
+        st.write(f"⏳ {expiration_message}")
 
     # User enters verification code
     if email:
