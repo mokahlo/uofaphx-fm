@@ -28,7 +28,7 @@ else:
 
     # Function to read tab name & content from a .txt file
     def load_rotation_details(file_path):
-        """Reads the content of a rotation file and extracts the title"""
+        """Reads the content of a rotation file, extracts the title, and detects images"""
         if not os.path.exists(file_path):
             return "Unknown Rotation", "No information available."
 
@@ -75,6 +75,22 @@ else:
 
         for i, (tab_name, content) in enumerate(rotation_details):
             with selected_rotation[i]:
-                st.markdown(content)  # ✅ Display only content (no redundant title)
+                # ✅ Detect and display images separately
+                lines = content.split("\n")
+                for line in lines:
+                    line = line.strip()
+                    if line.startswith("!["):  # Markdown image syntax detected
+                        try:
+                            alt_text, img_path = line.split("](")
+                            img_path = img_path.rstrip(")")
+                            img_path = img_path.strip()  # Ensure no extra spaces
+                            if os.path.exists(img_path):  # Check if local file exists
+                                st.image(img_path, caption=alt_text.strip("!["), use_column_width=True)
+                            else:
+                                st.markdown(line)  # Keep as Markdown if file not found
+                        except Exception:
+                            st.markdown(line)  # If error in parsing, render as normal text
+                    else:
+                        st.markdown(line)  # ✅ Display normal text
     else:
         st.warning(f"No rotations found for {selected_year}. Please check the folder structure.")
