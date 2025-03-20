@@ -154,18 +154,16 @@
     - Home Medications: 
         - Semaglutide 2mg/3mL
         - Atorvastatin 20mg daily
-    Allergies:
-        Sulfa
-        Wellbutrin
-    Labs: 
-        11/14/23: 
-            Ca 10.9, Cr 0.6, Vit D 13.5
-        01/17/24:
-            iCal 6.2, PTH 99
-        06/05/24: 
-            PTH 135, Vit D 25-Hydroxyl 14.5, Vit D-1,25 145, Ca 10.8, 06/14/24: 24h Urine Cr 1.1
-    Imaging: 
-        DEXA (06/05/24): 
-            Osteoporosis of L femoral neck (T-score -2.5), Osteopenia of lumbar spine (T-score -1.3), Osteopenia of left total hip (T-score -1.1)
-        MIBI w/ SPECT/CT (06/13/24):
-            Focal uptake inferior to the left thyroid corresponding to a 1.8cm nodule adjacent to the left trachea at the level of the sternoclavicular joint
+    - Allergies:
+        - Sulfa
+        - Wellbutrin
+    - Labs: 
+        - 11/14/23: Ca 10.9, Cr 0.6, Vit D 13.5
+        - 01/17/24: iCal 6.2, PTH 99
+        - 06/05/24: PTH 135, Vit D 25-Hydroxyl 14.5, Vit D-1,25 145, Ca 10.8 
+        - 06/14/24: 24h Urine Cr 1.1
+    - Imaging: 
+        - DEXA (06/05/24): 
+            - Osteoporosis of L femoral neck (T-score -2.5), Osteopenia of lumbar spine (T-score -1.3), Osteopenia of left total hip (T-score -1.1)
+        - MIBI w/ SPECT/CT (06/13/24):
+            - Focal uptake inferior to the left thyroid corresponding to a 1.8cm nodule adjacent to the left trachea at the level of the sternoclavicular joint
