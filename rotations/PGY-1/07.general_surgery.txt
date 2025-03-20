@@ -3,7 +3,7 @@
 
 **Duration:** 1 month  
 **Description:** Residents will gain hands-on experience in the evaluation and management of surgical patients, including preoperative, intraoperative, and postoperative care. The rotation emphasizes surgical decision-making, technical skill development, and collaboration with multidisciplinary teams.  
-
+---
 ### Objectives  
 - Perform comprehensive preoperative assessments, including history-taking, physical exams, and risk stratification.  
 - Assist in a variety of surgical procedures, including laparoscopic and open surgeries.  
@@ -13,22 +13,7 @@
 - Participate in trauma assessments and gain experience in the initial resuscitation and management of surgical trauma patients.  
 - Interpret imaging studies relevant to surgical conditions, including CT scans, ultrasounds, and X-rays.  
 - Work collaboratively with anesthesiologists, nurses, and surgical teams to optimize patient outcomes.  
-- Engage in daily rounds, case discussions, and surgical morbidity and mortality conferences.  
-
----
-### Parking
-- Residents and hospital staff can park in the **employee parking garage**, located adjacent to the main hospital building.  
-- The **garage entrance is accessible via 12th Street & McDowell Road**.  
-- Badges are required for entry into designated employee parking areas.  
-- Limited visitor parking is available in the **surface lot near the main entrance**.  
-- For night shifts, it's recommended to park in **well-lit areas** and use hospital security escort services if needed.
----
-### Security
-- **Hospital security is available 24/7** and can be contacted at **(602) 839-2073** for any concerns or escort requests.  
-- Badge access is required for **restricted areas, resident call rooms, and staff lounges**.  
-- Security patrols are active throughout the hospital and parking facilities.  
-- In case of an emergency, **call hospital security or dial 911 for immediate assistance**.  
-- The hospital encourages residents to **avoid walking alone at night** and use designated security escort services when leaving the hospital after late shifts.    
+- Engage in daily rounds, case discussions, and surgical morbidity and mortality conferences.     
 ---
 ### First Day Logistics
 - A chief resident may reach out before the rotation to add you to the WhatsApp chat. Otherwise, contact a surgery intern to coordinate your arrival time.
@@ -50,31 +35,32 @@
 - Same-day discharge: Inguinal/umbilical hernias, cholecystectomies.
 - Next-day discharge: Hiatal hernias, endocrine surgeries (parathyroid/thyroid).
 ---
-### Team structure
-- 2 fifth-year surgery residents (chiefs)
-  - 1 for endocrine surgery
-  - 1 for the A general surgery service
-- 1 second-year surgery resident (covers both services)
-- 1 surgery intern (covers both services)
-- 1 family medicine intern (when scheduled)
-- 1 fourth-year medical student
-- 2 third-year medical students (1 for endocrine, 1 for general surgery)
+### Team Structure
+- **2 fifth-year surgery residents (chiefs)**
+  - 1 for endocrine surgery.
+  - 1 for the A general surgery service.
+- **1 second-year surgery resident** (covers both services).
+- **1 surgery intern** (covers both services).
+- **1 family medicine intern** (if scheduled on service).
+- **1 fourth-year medical student**
+- **2 third-year medical students** (one for endocrine, one for general surgery).
 ---
 ### Schedule and Service Expectations
-- Monday–Friday: Elective surgeries; family medicine interns assigned to clinic (preferences considered).
-- If no clinic attendings are present, interns may be assigned to the OR or floor duties.
-- Thursday didactics (7 AM–12 PM):
+- **Monday–Friday:** Elective surgeries; family medicine interns assigned to clinic (preferences considered).
+- **If no clinic attendings are present, interns may be assigned to the OR or floor duties.**
+- **Thursday Didactics (7 AM–12 PM):**
   - Rounds occur at 6–6:30 AM before didactics.
   - The A/Endo intern covers the service while surgery residents attend didactics.
-- Weekend coverage:
+- **Weekend Coverage:**
   - Usually work Saturdays, off Sundays (unless on a black/gold weekend schedule).
   - Friday surgery cases admitted overnight are typically discharged Saturday.
+  - A/Endo surgery interns cover **4 trauma night shifts** (Fri night, Sat night) to allow trauma night interns to have two days off.
 ---
-### Sign-out Procedures
-- Weekdays (Monday, Tuesday, Wednesday, Friday): 5 PM, New Tower 4th Floor Conference Room.
-- Thursdays: 6 PM, Trauma Bay.
-- Weekends: 5 PM, Trauma Bay.
-- Patient list is updated in the Teams Surgery Group. Interns must help maintain this document.
+### Sign-Out Procedures
+- **Weekdays (Mon, Tue, Wed, Fri):** 5 PM, New Tower 4th Floor Conference Room.
+- **Thursdays:** 6 PM, Trauma Bay.
+- **Weekends:** 5 PM, Trauma Bay.
+- **Intern Responsibility:** Maintain and update the patient sign-out document in the Teams Surgery Group.
 ---
 ### Progress Notes and Orders
 - Notes follow standard templates for general and endocrine surgeries.
@@ -82,10 +68,10 @@
 - Hospital orders are typically handled by surgery residents, but interns may be asked to place discharge orders.
 ---
 ### Standard Discharges
-- Same-day discharge: Inguinal hernia, cholecystectomy → Ibuprofen, acetaminophen, polyethylene glycol.
-- Hiatal hernia: Requires upper GI contrast study on post-op day 1 before diet advancement.
-- Parathyroidectomy: Post-op day 2 discharge. Monitor for hypocalcemia (numbness, tingling). Calcium carbonate (Tums) required for 3 weeks.
-- Thyroidectomy: Post-op day 2 discharge. Monitor for laryngeal nerve irritation (hoarseness). Total thyroidectomy patients need levothyroxine (90-day supply).
+- **Same-day discharge:** Inguinal hernia, cholecystectomy → Ibuprofen, acetaminophen, polyethylene glycol.
+- **Hiatal hernia:** Requires upper GI contrast study on post-op day 1 before diet advancement. **Discharged with liquid medications** (polyethylene glycol, simethicone, ondansetron sublingual, acetaminophen, robaxin, and sometimes oxycodone for 3-5 days).
+- **Parathyroidectomy:** Post-op day 2 discharge. Monitor for hypocalcemia (numbness, tingling). **Calcium carbonate (Tums) required for 3 weeks**.
+- **Thyroidectomy:** Post-op day 2 discharge. Monitor for **laryngeal nerve irritation (hoarseness)**. Total thyroidectomy patients need **levothyroxine (90-day supply).**
 ---
 ### Clinic Expectations
 - Assigned to clinic attendings weekly.
@@ -99,7 +85,6 @@
     - Referral source (endocrinologist vs PCP).
     - Key labs: TSH, Free T3/T4, Thyroglobulin, TRAb/TBII.
     - Family history (MEN syndromes, thyroid cancer).
-
 - Primary hyperparathyroidism:
    - Earliest calcium elevation (often years before diagnosis).
    - DEXA scans (osteopenia/osteoporosis focus on forearm).
@@ -140,8 +125,7 @@
     - Endocrinologist: Iyad Syoufi, MD
     - HPI:50-year-old woman who presents for evaluation of hypercalcemia. Her labs in January revealed a PTH of 99 and her calcium was also elevated at that time. Prior labs from November also revealed hypercalcemia. She has a history of kidney stones. A parathyroid scan w/ SPECT/CT was then performed, which showed evidence of a parathyroid adenoma inferior to the left thyroid. Her DEXA showed osteoporosis of her L femoral neck. She presents for evaluation and consideration of parathyroidectomy.  
     - Past Medical History: 
-        - HLD, Kidney stones (2021)
-        - Vitamin D deficiency
+        - HLD, Kidney stones (2021), Vitamin D deficiency
     -Past Surgical History: 
         - LEEP procedure (2017)
     - Family History: 
