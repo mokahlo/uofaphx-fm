@@ -37,8 +37,8 @@
 ---
 ### Team Structure
 - **2 fifth-year surgery residents (chiefs)**
-  - 1 for endocrine surgery.
-  - 1 for the A general surgery service.
+- 1 for endocrine surgery.
+- 1 for the A general surgery service.
 - **1 second-year surgery resident** (covers both services).
 - **1 surgery intern** (covers both services).
 - **1 family medicine intern** (if scheduled on service).
