@@ -49,12 +49,12 @@
 - **Monday–Friday:** Elective surgeries; family medicine interns assigned to clinic (preferences considered).
 - **If no clinic attendings are present, interns may be assigned to the OR or floor duties.**
 - **Thursday Didactics (7 AM–12 PM):**
-  - Rounds occur at 6–6:30 AM before didactics.
-  - The A/Endo intern covers the service while surgery residents attend didactics.
+     - Rounds occur at 6–6:30 AM before didactics.
+     - The A/Endo intern covers the service while surgery residents attend didactics.
 - **Weekend Coverage:**
-  - Usually work Saturdays, off Sundays (unless on a black/gold weekend schedule).
-  - Friday surgery cases admitted overnight are typically discharged Saturday.
-  - A/Endo surgery interns cover **4 trauma night shifts** (Fri night, Sat night) to allow trauma night interns to have two days off.
+     - Usually work Saturdays, off Sundays (unless on a black/gold weekend schedule).
+     - Friday surgery cases admitted overnight are typically discharged Saturday.
+     - A/Endo surgery interns cover **4 trauma night shifts** (Fri night, Sat night) to allow trauma night interns to have two days off.
 ---
 ### Sign-Out Procedures
 - **Weekdays (Mon, Tue, Wed, Fri):** 5 PM, New Tower 4th Floor Conference Room.
@@ -77,14 +77,14 @@
 - Assigned to clinic attendings weekly.
 - Clinic location: 1441 Building, 2nd Floor. Employee garage parking available.
 - Workflow:
-    - See patients (~10 min), then present to attending.
-    - Focus on surgical eligibility and next steps.
+   - See patients (~10 min), then present to attending.
+   - Focus on surgical eligibility and next steps.
 ---
 ### Endocrine Surgery Important History Considerations
 - Thyroid nodules:
-    - Referral source (endocrinologist vs PCP).
-    - Key labs: TSH, Free T3/T4, Thyroglobulin, TRAb/TBII.
-    - Family history (MEN syndromes, thyroid cancer).
+   - Referral source (endocrinologist vs PCP).
+   - Key labs: TSH, Free T3/T4, Thyroglobulin, TRAb/TBII.
+   - Family history (MEN syndromes, thyroid cancer).
 - Primary hyperparathyroidism:
    - Earliest calcium elevation (often years before diagnosis).
    - DEXA scans (osteopenia/osteoporosis focus on forearm).
@@ -106,8 +106,8 @@
    - See new patients only, fill out HPI section in Cerner.
    - Prefers specific genetic markers.
 - Dr. Milas (Endocrine Surgery):
-    - Expect high levels of teaching and ultrasound training.
-    - Requires chart prep document for all patients.
+   - Expect high levels of teaching and ultrasound training.
+   - Requires chart prep document for all patients.
 - Dr. Nelson (Endocrine & General Surgery):
     - Strict 10-minute visit timeframe.
 - Dr. Rajdev (General Surgery):
